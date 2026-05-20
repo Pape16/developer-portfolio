@@ -7,39 +7,56 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #0077cc, #005fa3);
+    background: linear-gradient(to right, #005fa3, #0077cc);
     color: white;
     text-align: center;
-    padding: 50px 20px;
+    padding: 70px 20px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 40px;
+    font-size: 42px;
 }
 
 header p {
     font-size: 20px;
-    margin-top: 10px;
+    margin: 15px 0 25px;
+}
+
+.btn {
+    background: white;
+    color: #005fa3;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
 }
 
 section {
     background: white;
-    margin: 25px auto;
-    padding: 25px;
+    margin: 30px auto;
+    padding: 30px;
     width: 80%;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 14px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
     color: #0077cc;
 }
 
-ul {
-    padding-left: 20px;
+.skills span {
+    display: inline-block;
+    background: #eaf4ff;
+    color: #005fa3;
+    padding: 10px 15px;
+    margin: 6px;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
-li {
-    margin-bottom: 8px;
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
 }
