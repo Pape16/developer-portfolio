@@ -73,3 +73,33 @@ footer {
     border-left: 4px solid #0077cc;
     border-radius: 10px;
 }
+header {
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+    background: linear-gradient(to right, #0077cc, #003f88);
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: #0077cc;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #f1f1f1;
+}
